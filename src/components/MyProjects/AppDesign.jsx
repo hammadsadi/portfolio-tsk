@@ -8,7 +8,7 @@ import ProjectItem from "../Shared/ProjectItem/ProjectItem";
 
 const AppDesign = () => {
   return (
-    <div className="flex flex-wrap 2xl:flex-nowrap gap-[44px] lg:mt-[50px] mt-7 2xl:mt-[106px]">
+    <div className="flex justify-center items-center flex-wrap 2xl:flex-nowrap gap-[44px] lg:mt-[50px] mt-7 2xl:mt-[106px]">
       <ProjectItem
         img1={img1}
         img2={img2}

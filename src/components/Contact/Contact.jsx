@@ -14,9 +14,9 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Enter Your Email"
-              className="py-1 px-2 rounded-md text-base lg:py-[22px] lg:pl-[26px] w-[200px] lg:w-[400px] xl:w-[627px] bg-[#F8F8F8] border lg:rounded-[14px] outline-none border-[#AFAFAF]"
+              className="py-1 px-3 rounded-md text-xs md:text-base lg:py-[22px] lg:pl-[26px] w-[200px] lg:w-[400px] xl:w-[627px] bg-[#F8F8F8] border lg:rounded-[14px] outline-none border-[#AFAFAF]"
             />
-            <button className="py-1 px-1 rounded-md text-base lg:py-[20px] lg:px-[36px] bg-primary text-white lg:rounded-[14px] lg:text-[24px] font-semibold">
+            <button className="py-1 px-3 rounded-md text-xs md:text-base lg:py-[20px] lg:px-[36px] bg-primary text-white lg:rounded-[14px] lg:text-[24px] font-semibold">
               Contact Me{" "}
             </button>
           </div>

@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <header className="py-2 relative 2xl:mt-[61px]">
-      <div className="container mx-auto">
+      <div className="container px-2 md:px-3 lg:px-0 mx-auto">
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <Link className="flex items-center gap-2 2xl:gap-5" to="/">
