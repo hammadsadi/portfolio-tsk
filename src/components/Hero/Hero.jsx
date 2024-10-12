@@ -6,7 +6,7 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section>
+    <section id="hero">
       <MyContainer>
         <div className="flex md:flex-row flex-col justify-between items-center mt-8 2xl:mt-[120px]">
           <div className="flex-1">

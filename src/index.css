@@ -12,3 +12,156 @@ body{
     max-width: 1420px;
     margin: 0 auto;
 }
+p{
+    @apply text-base 2xl:text-[21px] text-black font-normal leading-[31px] tracking-[3%]
+}
+.react-tabs__tab-list {
+    border-bottom: 0px !important;
+    margin: 0 0 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.react-tabs__tab {
+    display: inline-block;
+    background-color: #F8F8F8 !important;
+    padding: 10px 20px !important;
+    border: 1px solid #545454 !important;
+    border-radius: 12px !important;
+    font-size: 24px !important;
+    font-weight: 400;
+    color: black;
+}
+.react-tabs__tab--selected {
+    background: #FD6F00 !important;
+    border: 1px solid #FD6F00 !important;
+    color: white !important;
+    border-radius: 12px !important;
+}
+.react-tabs {
+    margin: 0 auto;
+    text-align: center !important;
+}
+
+
+ .slick-dots li button:before {
+    font-family: '' !important;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 57px !important;
+    height: 16px !important;
+    background-color: #545454;
+    border-radius: 8px !important;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+}
+
+.slick-dots li button{
+    margin-right: 10px;
+}
+.slick-dots {
+    /* position: absolute; */
+    bottom: -25px;
+    display: flex !important;
+    justify-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    gap: 30px !important;
+}
+.slick-dots li.slick-active button:before {
+    background-color: #FD6F00 !important;
+}
+
+
+@media (min-width: 320px) and (max-width: 600px)  {
+    .react-tabs__tab-list {
+    gap: 5px !important;
+}
+.react-tabs__tab {
+    display: inline-block;
+    padding: 3px 6px !important;
+    border-radius: 12px !important;
+    font-size: 10px !important;
+    color: black;
+
+}
+/* Slick */
+ .slick-dots li button:before {
+    font-family: '' !important;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px !important;
+    height: 3px !important;
+    background-color: #545454;
+    border-radius: 8px !important;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+}
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .react-tabs__tab-list {
+    gap: 5px !important;
+}
+.react-tabs__tab {
+    display: inline-block;
+    padding: 5px 10px !important;
+    border-radius: 12px !important;
+    font-size: 16px !important;
+    color: black;
+
+}
+/* Slick */
+ .slick-dots li button:before {
+    font-family: '' !important;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px !important;
+    height: 8px !important;
+    background-color: #545454;
+    border-radius: 8px !important;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+}
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1280px)  {
+
+/* Slick */
+ .slick-dots li button:before {
+    font-family: '' !important;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px !important;
+    height: 6px !important;
+    background-color: #545454;
+    border-radius: 8px !important;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+}
+}

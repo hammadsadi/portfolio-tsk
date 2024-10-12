@@ -31,23 +31,22 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
-            <Link className="flex items-center gap-5" to="/">
-              <img src={logo} alt="" />
+            <Link className="flex items-center gap-2 2xl:gap-5" to="/">
+              <img src={logo} alt="" className="w-[50px] 2xl:w-[67px]" />
               <p className=" text-3xl md:text-5xl leading-[58px] font-motserat">
                 <span className="font-bold text-black">M</span>
                 <span className="text-[#1E1E1E] font-normal">umair</span>
               </p>
             </Link>
           </div>
-{/* Mobile Menue */}
-          {/* <nav
+          {/* Mobile Menue */}
+          <nav
             ref={menuRef}
             aria-label="Global"
-            className={` xl:hidden transition-transform duration-300 transform ${
-              isToggleNav ? "translate-x-0" : "translate-x-full"
+            className={` z-50 xl:hidden transition-transform duration-300 transform ${
+              isToggleNav ? "flex" : "hidden"
             } absolute top-0 right-0 bg-black flex flex-col items-center gap-9 text-white h-screen w-1/2`}
           >
-           
             <button className="absolute right-9 top-9" onClick={toggleNav}>
               <RxCross1 size={25} />
             </button>
@@ -56,27 +55,31 @@ const Navbar = () => {
               <NavLinkItem handleMenu={toggleNav} label="About me" dLink="/" />
               <NavLinkItem handleMenu={toggleNav} label="Services" dLink="/" />
               <NavLinkItem handleMenu={toggleNav} label="Projects" dLink="/" />
-              <NavLinkItem handleMenu={toggleNav} label="Testimonials" dLink="/" />
+              <NavLinkItem
+                handleMenu={toggleNav}
+                label="Testimonials"
+                dLink="/"
+              />
               <NavLinkItem handleMenu={toggleNav} label="Contact" dLink="/" />
             </ul>
             <a
-              className="bg-primary w-fit p-[17px] px-[18px] text-[21px] font-normal text-white leading-8 tracking-tighter-[3%] rounded-[5px]"
+              className="bg-primary w-fit text-base px-3 lg:p-[17px] lg:px-[18px] lg:text-[21px] font-normal text-white leading-8 tracking-tighter-[3%] rounded-[5px]"
               href="#"
             >
               Download CV
             </a>
-          </nav> */}
+          </nav>
 
           {/* Large Device Menu */}
           <div className="md:flex md:items-center md:gap-12">
             <nav aria-label="Global" className="hidden xl:block">
               <ul className="flex items-center gap-3">
-                <NavLinkItem label="Home" dLink="/" />
-                <NavLinkItem label="About me" dLink="/" />
-                <NavLinkItem label="Services" dLink="/" />
-                <NavLinkItem label="Projects" dLink="/" />
-                <NavLinkItem label="Testimonials" dLink="/" />
-                <NavLinkItem label="Contact" dLink="/" />
+                <NavLinkItem label="Home" dLink="#hero" />
+                <NavLinkItem label="About me" dLink="#about" />
+                <NavLinkItem label="Services" dLink="#services" />
+                <NavLinkItem label="Projects" dLink="#projects" />
+                <NavLinkItem label="Testimonials" dLink="#testimonials" />
+                <NavLinkItem label="Contact" dLink="#contact" />
               </ul>
             </nav>
 
