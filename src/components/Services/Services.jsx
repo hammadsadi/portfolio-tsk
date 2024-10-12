@@ -12,7 +12,7 @@ const Services = () => {
             title="Services"
             desc="Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium"
           />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 2xl:gap-[31px] 2xl:mt-[24px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 2xl:gap-[31px] mt-[24px]">
             <ServiceItem
               title="UI/UX"
               vactorIcon={vc1}
@@ -24,12 +24,12 @@ const Services = () => {
               desc="Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
             />
             <ServiceItem
-              title="UI/UX"
+              title="App Design"
               vactorIcon={vc1}
               desc="Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
             />
             <ServiceItem
-              title="UI/UX"
+              title="Graphic Design "
               vactorIcon={vc1}
               desc="Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
             />

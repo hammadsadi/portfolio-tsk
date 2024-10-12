@@ -7,7 +7,7 @@ import w2 from "../../assets/images/Web Designs (3).png";
 import ProjectItem from "../Shared/ProjectItem/ProjectItem";
 const AllProjects = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center 2xl:grid-cols-3 gap-[44px] lg:mt-[50px] mt-7 2xl:mt-[106px]">
+    <div className="flex flex-wrap 2xl:flex-nowrap gap-[44px] lg:mt-[50px] mt-7 2xl:mt-[106px]">
       <ProjectItem
         img1={img1}
         img2={img2}
@@ -24,18 +24,6 @@ const AllProjects = () => {
         img1={w4}
         img2={w5}
         title="Web Design"
-        subtitle="Ecom Web Page Design  "
-      />
-      <ProjectItem
-        img1={w4}
-        img2={w5}
-        title="UI/UX Design"
-        subtitle="Ecom Web Page Design  "
-      />
-      <ProjectItem
-        img1={w4}
-        img2={w5}
-        title="Graphic Design"
         subtitle="Ecom Web Page Design  "
       />
     </div>
